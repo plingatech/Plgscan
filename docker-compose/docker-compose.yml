@@ -42,7 +42,7 @@ services:
     environment:
         ETHEREUM_JSONRPC_HTTP_URL: http://host.docker.internal:8545/
         ETHEREUM_JSONRPC_TRACE_URL: http://host.docker.internal:8545/
-        ETHEREUM_JSONRPC_WS_URL: ws://host.docker.internal:8545/
+        ETHEREUM_JSONRPC_WS_URL: ws://host.docker.internal:8545/ws
         DATABASE_URL: postgresql://postgres:@host.docker.internal:7432/blockscout?ssl=false
         CHAIN_ID: '1337'
     ports:
